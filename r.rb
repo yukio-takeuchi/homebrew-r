@@ -14,6 +14,7 @@ class R < Formula
   depends_on "xz"
   depends_on "openblas" => :optional
   depends_on :java => :optional
+  depends_on :x11
 
   ## SRF - Add additional R capabilities (comment out if undesired)
   depends_on :x11 # SRF - X11 necessary for tcl-tk since tk.h includes X11 headers. See section A.2.1 Tcl/Tk at < https://cran.r-project.org/doc/manuals/r-release/R-admin.html >
