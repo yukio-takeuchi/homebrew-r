@@ -3,7 +3,7 @@ class RDevel < Formula
   homepage "https://www.r-project.org/"
   url "https://cloud.r-project.org/src/base/R-3/R-3.6.3.tar.gz"
   url "https://cran.r-project.org/src/base-prerelease/R-devel_2020-03-31_r78116.tar.gz"
-  #sha256 "89302990d8e8add536e12125ec591d6951022cf8475861b3690bc8bf1cefaa8f"
+  sha256 "5d032da49b4cb4190251e20bb94bb4a46c6e0cec91eedb11a891d976ce6904cc"
 
   depends_on "pkg-config" => :build
   depends_on "gcc" # for gfortran
